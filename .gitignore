@@ -1,0 +1,19 @@
+# Xcode & Swift
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+.build/
+.swiftpm/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Stage build dependencies (StageDist is tracked so Xcode builds without Node)
+Stage/node_modules/
+
+# OS & Secrets
+.DS_Store
+*.xcconfig.local
+.env
+
